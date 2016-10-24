@@ -13,7 +13,7 @@ int main()
 {
     char name[25];
     printf("What is your last name?");
-    printf("(Please capitalize!!)");
+    printf("(Please capitalize the first letter!!)");
     scanf(" %s", name);
 
     if ((name[0] >'H') && (name[0] < 'Q'))
