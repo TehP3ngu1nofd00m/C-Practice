@@ -3,7 +3,7 @@
 
     /* Program that asks user for
     a last name. If it starts with
-    a letter between P and Q, they
+    a letter between H and Q, they
     will be sent to a special room
     for their tickets */
 
@@ -16,7 +16,7 @@ int main()
     printf("(Please capitalize!!)");
     scanf(" %s", name);
 
-    if ((name[0] >= 'P') && (name[0] <= 'S'))
+    if ((name[0] >'H') && (name[0] < 'Q'))
     {
         printf("You must go to room 2532 for your tickets.\n");
     }
