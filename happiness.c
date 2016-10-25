@@ -1,10 +1,8 @@
 // Happiness scale
 // File - happiness.c
 
-    /* This program asks the user
-    how happy they are on a scale
-    of 1-10, then prints a
-    corresponding comment */
+/* This program asks the user how happy they are on a
+    scale of 1-10, then prints a corresponding comment */
 
 #include <stdio.h>
 
@@ -17,9 +15,8 @@ int main()
 
     printf("\n\n\n");
 
-    /* 4 groups of the happiness
-    scale will display different
-    messages */
+/* 4 groups of the happiness scale will
+    display different messages */
 
     if (happy >= 8) {
         printf("Nice to know you're having a good day :)\n");
