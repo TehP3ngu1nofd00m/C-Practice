@@ -22,16 +22,16 @@ int main()
     messages */
 
     if (happy >= 8) {
-        printf("KYS ya fokin normie.\n");
+        printf("Nice to know you're having a good day :)\n");
     }
     else if (happy >= 5) {
-        printf("REEEEEEEEEEEEEEEEEEEEEEEEEEEE\n");
+        printf("Things aren't so bad!\n");
     }
     else if (happy >= 3) {
-        printf("You are at peak happiness for a robot.\n");
+        printf("Don't feel too sad.\n");
     }
     else {
-        printf("Everything is normal.\n\nLife is suffering and we all die in the end.\n");
+        printf("Hope you feel better soon.\n");
     }
 
     printf("\n\n\n");
