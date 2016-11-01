@@ -26,14 +26,14 @@ int main()
         switch (choice)
         {
             case (1): printf("\nWhat is the contact\'s name and number?\n");
-                      break;
+                      break; // needed to end the loop of the switch statement, otherwise it will continue to next case.
             case (2): printf("\nWhich contact do you want to change?\n");
                       break;
             case (3): printf("\nWho do you want to call?\n");
                       break;
             case (4): printf("\nWho do you want to text?\n");
                       break;
-            case (5): exit(1); // Exits program early
+            case (5): exit(1); // Exits program early makes the process return 1 instead of 0 for some reason the book didn't explain
             default:  printf("\n%d is not a valid choice.\n", choice);
                       printf("Try again. \n");
                       break;
