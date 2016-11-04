@@ -14,7 +14,7 @@ int main()
     {
         putchar(msg[i]); // Outputs a single character at a time per loop
     }
-    putchar('\n'); //One line break after loop is done
+    putchar('\n'); // One line break after loop is done
 
     return 0;
 }
